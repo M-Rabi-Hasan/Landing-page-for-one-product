@@ -1,0 +1,11 @@
+/* styles.css or equivalent */
+.image-animation {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.8; /* Initial opacity */
+  }
+  
+  .image-animation:hover {
+    transform: scale(1.05); /* Slightly scale up */
+    opacity: 1; /* Full opacity on hover */
+  }
+  

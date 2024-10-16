@@ -26,7 +26,7 @@ const LandingPage: React.FC = () => {
       {/* Footer Section */}
       <Footer />
     </div>
-  );
+  );  
 };
 
 export default LandingPage;

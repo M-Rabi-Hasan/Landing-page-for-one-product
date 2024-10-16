@@ -14,7 +14,13 @@ const ProductDescription: React.FC = () => {
 
       {/* Product Image */}
       <div className="mb-4 md:mb-6">
-        <Image src="/public/swing.jpg" alt={t('Sensory Swing')} width={600} height={400} className="w-full h-auto" />
+        <Image 
+          src="/swing.jpg" 
+          alt={t('Sensory Swing')} 
+          width={300} 
+          height={200} 
+          className="w-full h-auto max-w-md mx-auto" // Adjusted for max width and centering
+        />
       </div>
     </section>
   );
